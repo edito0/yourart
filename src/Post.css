@@ -1,0 +1,80 @@
+.post{
+  width: 600px;
+  margin: 5px auto;
+  border-radius: 0px;
+  box-shadow: 0px 1px 4px 1px rgba(0, 0, 0, 0.252);
+  border: 1px solid rgba(0, 0, 0, 0.282);
+}
+
+.post__top{
+  display: flex;
+  align-items: center;
+  padding: 15px  15px 5px 15px;
+}
+
+.post__top img{
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.post__topInfo h3{
+  font-size: medium;
+}
+
+.post__topInfo p{
+  font-size: small;
+  color: gray;
+}
+
+.post__bottom{
+  margin: 5px 0px;
+  padding: 0px 0px 10px 20px;
+}
+
+.post__image img{
+  width: 100%;
+}
+
+.post__options {
+  padding-top: 10px;
+  border-top: 1px solid rgba(0, 0, 0, 0.282);
+  display: flex;
+  justify-content: space-evenly;
+  font-size: medium;
+  color: rgba(0, 0, 0, 0.586);
+  cursor: pointer;
+  padding: 9px 15px;
+}
+
+.post__option {
+  color: rgba(0, 0, 0, 0.586);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  flex: 1;
+  transition: all 0.3s ease;
+}
+
+.post__option  p {
+  margin-left: 10px;
+  color: rgba(0, 0, 0, 0.586);
+}
+
+.post__option a {
+  color: rgba(0, 0, 0, 0.586);
+}
+
+.post__option:hover {
+  color: skyblue;
+}
+
+
+@media only screen and (max-width: 600px) {
+  .post{
+    width: 100%;
+    margin:15px  0px;
+    border-radius: 0px;
+  }
+}

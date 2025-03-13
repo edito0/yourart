@@ -1,0 +1,25 @@
+
+
+.Sidebar {
+  padding: 25px 10px;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 30%;
+  z-index: 1000;
+  background-color: #a1a1a182;
+  border-radius:0px  40px 40px 0px ;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+
+@media only screen and (max-width: 1490px) {
+  .Sidebar{
+    display: none;
+  }
+}

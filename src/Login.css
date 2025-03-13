@@ -1,0 +1,52 @@
+.login{
+  width: 400px;
+  margin: auto;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+
+}
+
+.logo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}  
+
+
+
+.logo h1{
+  font-family: 'Dancing Script', cursive;
+  font-weight: bolder;
+  color: rgb(0, 0, 0);
+  font-size: 6rem;
+} 
+
+.logo img{
+  height: 19rem;
+}
+
+
+.login  button{
+
+  position: absolute;
+  bottom: 0px;
+   width: 100%;
+   color: black;
+   outline: none;
+   border: 2px solid black;
+   padding: 9px 0px;
+   font-size: 1rem;
+   font-weight: bold;
+   transition: all 0.3s ease;
+}
+
+
+.login  button:hover{
+   background-color: black;
+   color: rgb(255, 255, 255);
+   
+}
